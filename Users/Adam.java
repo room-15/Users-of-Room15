@@ -11,8 +11,12 @@ public class Adam extends Room15User {
 	//Number of times Adam has lost his keystore
 	int keystoreLost = 1;
 
+	private ArrayList<DadJoke> dadJokes;
+
 	public Adam() {
 		ks = null;
+		dadJokes = new ArrayList<>();
+		dadJokes.ensureCapacity(Integer.MAX_VALUE);
 	}
 
 	//Always returns true because Adam is an idiot and lost his keystore
