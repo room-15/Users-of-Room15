@@ -1,4 +1,4 @@
-public class Adam{
+public class Adam extends Room15User {
 
 	private float speed = 0.0;
 	private boolean isRoomOwner = true;
@@ -11,8 +11,12 @@ public class Adam{
 	//Number of times Adam has lost his keystore
 	int keystoreLost = 1;
 
+	private ArrayList<DadJoke> dadJokes;
+
 	public Adam() {
 		ks = null;
+		dadJokes = new ArrayList<>();
+		dadJokes.ensureCapacity(Integer.MAX_VALUE);
 	}
 
 	//Always returns true because Adam is an idiot and lost his keystore
@@ -45,5 +49,11 @@ public class Adam{
 
     	//return lovers
 		return lovers;
+	}
+
+	@Override
+	public Object clone(){
+		// Soon that will be true.
+		return new CodeMagic();
 	}
 }

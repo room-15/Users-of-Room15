@@ -1,4 +1,4 @@
-public class Mauker{
+public class Mauker extends Room15User {
 
 	boolean isRoomOwner = false;
 	boolean hasCircle = true;
