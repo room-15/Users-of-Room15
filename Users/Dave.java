@@ -5,6 +5,7 @@ public class Dave{
 
 	public Dave() {
 		// TODO auto generated method stub
+		System.out.println("People are tired of Dave's shit");
 	}
 
 	public boolean isCircle(){
