@@ -2,6 +2,7 @@ public class Adam{
 
 	boolean isRoomOwner = true;
 	boolean isDumbass = true;
+	boolean hasCircle = true;
 
 	//Number of times Adam has lost his keystore
 	int keystoreLost = 1;
@@ -11,10 +12,19 @@ public class Adam{
 		return true;
 	}
 
+	public boolean isCircle(){
+		return hasCircle;
+	}
+
+	public boolean isOwner(){
+		return isRoomOwner;
+	}
+	
 	//Method that returns the number of times Adam has lost his keystore
 	public int keystoreLostCount(){
 		return keystoreLost;
 	}
+
 
 	public ArrayList<String> inLoveWith(){
 		//Initialize list of lovers
