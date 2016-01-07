@@ -1,7 +1,11 @@
 public class Mauker{
 
-	boolean isRoomOwner = true;
+	boolean isRoomOwner = false;
 	boolean hasCircle = true;
+
+	public Mauker() {
+		// TODO auto generated method stub
+	}
 
 	public boolean isCircle(){
 		return hasCircle;

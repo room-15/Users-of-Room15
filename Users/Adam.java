@@ -1,11 +1,19 @@
 public class Adam{
 
-	boolean isRoomOwner = true;
-	boolean isDumbass = true;
-	boolean hasCircle = true;
+	private float speed = 0.0;
+	private boolean isRoomOwner = true;
+	private boolean isDumbass = true;
+	private boolean hasCircle = true;
+
+	// TODO Create method to find keystore.
+	private KeyStore ks;
 
 	//Number of times Adam has lost his keystore
 	int keystoreLost = 1;
+
+	public Adam() {
+		ks = null;
+	}
 
 	//Always returns true because Adam is an idiot and lost his keystore
 	public boolean hasLostKeystore(){
