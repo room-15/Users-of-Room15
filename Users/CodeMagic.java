@@ -4,6 +4,7 @@ public class CodeMagic extends Room15User {
 	private boolean isRoomOwner = true;
 	private boolean isDumbass = false;
 	private boolean hasCircle = true;
+	private boolean isFirstLetterLowerCase = true;
 
 	// TODO
 
