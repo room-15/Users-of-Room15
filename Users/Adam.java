@@ -13,10 +13,14 @@ public class Adam extends Room15User {
 
 	private ArrayList<DadJoke> dadJokes;
 
+	private ArrayList<String> tristanRandomLinksBuffer;
+
 	public Adam() {
 		ks = null;
 		dadJokes = new ArrayList<>();
+		tristanRandomLinksBuffer = new ArrayList<>();
 		dadJokes.ensureCapacity(Integer.MAX_VALUE);
+		tristanRandomLinksBuffer.ensureCapacity(Integer.MAX_VALUE);
 	}
 
 	//Always returns true because Adam is an idiot and lost his keystore
