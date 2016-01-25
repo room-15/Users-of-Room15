@@ -59,6 +59,6 @@ public class Adam extends Room15User {
 	@Override
 	public Object clone(){
 		// Soon that will be true.
-		return new CodeMagic();
+		return new сodeMagic();
 	}
 }

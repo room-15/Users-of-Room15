@@ -5,7 +5,7 @@ public class CptEric extends Room15User {
 	private boolean hasCircle = true;
 	private boolean isSpanish = true;
 	private boolean knowsHisShitThroughJCenter = true;
-	private boolean isIntrigued = true; // For more info see: http://chat.stackoverflow.com/transcript/message/28106548#28106548
+	private boolean isIntrigued = true; // For more info see: https://chat.stackoverflow.com/transcript/message/28106548#28106548
 
 	public CptEric() {
 		
