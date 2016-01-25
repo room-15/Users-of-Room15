@@ -1,10 +1,10 @@
 public class Mauker extends Room15User {
 
-	boolean isRoomOwner = false;
-	boolean hasCircle = true;
-	boolean hasAndroidWear = true;
-	boolean hasHat = true;
-	ArrayList<Color> hatColors;
+	private boolean isRoomOwner = false;
+	private boolean hasCircle = true;
+	private boolean hasAndroidWear = true;
+	private boolean hasHat = true;
+	private ArrayList<Color> hatColors;
 
 	public Mauker() {
 		// TODO auto generated method stub
