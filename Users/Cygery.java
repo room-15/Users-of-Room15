@@ -1,11 +1,11 @@
-public class Cygery extends Room15User {
+public class cygery extends Room15User {
 
 	private boolean isRoomOwner = false;
 	private boolean isDumbass = false;
 	private boolean hasCircle = true;
 	private boolean hasAndroidWear = true;
 
-	public CptEric() {
+	public cygery() {
 		
 	}
 
