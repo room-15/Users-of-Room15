@@ -48,8 +48,9 @@ public class Adam extends Room15User {
 
     	//Add lovers in order from most in love to least
     	lovers.add("Tristan");
-    	lovers.add("Karly");
     	lovers.add("Mauker");
+    	lovers.add("Karley");
+    
 
     	//return lovers
 		return lovers;
