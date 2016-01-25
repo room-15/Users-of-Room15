@@ -6,11 +6,11 @@ public class codeMagic extends Room15User {
 	private boolean hasCircle = true;
 	private boolean isFirstLetterLowerCase = true;
 	
-	public CodeMagic() { 
+	public codeMagic() { 
 		// This code is so magical you can't even see what it does, it just does it.
 	}
 	
-	public doMoreMagic() {
+	public void doMoreMagic() {
 		// More magical code you can't see.
 	}
 }
