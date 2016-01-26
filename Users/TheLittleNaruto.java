@@ -1,4 +1,4 @@
-public class TheLittleNaruto{
+public class TheLittleNaruto extends Room15User {
 
 	boolean isRoomOwner = false;
 	boolean hasCircle = true;
