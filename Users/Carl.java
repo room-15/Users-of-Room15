@@ -1,11 +1,12 @@
-@Deprecated
+@Legacy
 public class Carl extends Room15User {
 
     private boolean isRoomOwner = true;
     private boolean hasCircle = true;
 
     public Carl() {
-        System.out.println("Warning: The class Carl is deprecated.  It has been in use for a long time and is too old to use");
+        System.out.println("Warning: The class Carl is now legacy code as it has been in use for so long.");
+        System.out.println("As an alternative, consider using class: Users-of-Room15.users.Adam.java");
     }
 
     public int getAge() {
