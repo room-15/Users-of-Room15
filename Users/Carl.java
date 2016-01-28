@@ -3,6 +3,7 @@ public class Carl extends Room15User {
 
     private boolean isRoomOwner = true;
     private boolean hasCircle = true;
+    private boolean isMerman = true;
 
     public Carl() {
         System.out.println("Warning: The class Carl is now legacy code as it has been in use for so long.");
@@ -19,5 +20,9 @@ public class Carl extends Room15User {
 
     public boolean isOwner() {
         return isRoomOwner;
+    }
+
+    public boolean isMerman() {
+        return isMerman;
     }
 }
