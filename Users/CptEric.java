@@ -40,4 +40,8 @@ public class CptEric extends Room15User {
 			return true;
 		}
 	}
+	
+	public Paella cookPaella() {
+		return new Paella();
+	}
 }

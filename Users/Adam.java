@@ -45,15 +45,13 @@ public class Adam extends Room15User {
 
 	public ArrayList<String> inLoveWith(){
 		//Initialize list of lovers
-    	ArrayList lovers = new ArrayList<String>();
+    		ArrayList lovers = new ArrayList<String>();
 
-    	//Add lovers in order from most in love to least
-    	lovers.add("Tristan");
-    	lovers.add("Mauker");
-    	lovers.add("Karley");
-    
+    		//Add lovers in order from most in love to least
+    		lovers.add("Tristan");
+    		lovers.add("Mauker");
 
-    	//return lovers
+    		//return lovers
 		return lovers;
 	}
 
