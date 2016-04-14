@@ -1,6 +1,7 @@
 public class Adam extends Room15User {
 
 	private float speed = 0.0;
+	private float ping = Float.MAX_VALUE; // Expressed in ms.
 	private boolean isRoomOwner = true;
 	private boolean isDumbass = true;
 	private boolean hasCircle = true;
