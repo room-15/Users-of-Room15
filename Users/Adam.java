@@ -1,6 +1,6 @@
 public class Adam extends Room15User {
 
-	private float speed = 0.1; // He's getting faster. http://chat.stackoverflow.com/transcript/message/30989844#30989844
+	private float speed = 1.0; // He's getting faster. http://chat.stackoverflow.com/transcript/message/30989844#30989844
 	private float ping = Float.MAX_VALUE; // Expressed in ms.
 	private boolean isRoomOwner = true;
 	private boolean isDumbass = true;
