@@ -1,6 +1,6 @@
 public class codeMagic extends Room15User {
 	
-	private float speed = Float.MAX_VALUE;
+	private float speed = Float.MAX_VALUE - 1.0f;
 	private boolean isRoomOwner = true;
 	private boolean isDumbass = false;
 	private boolean hasCircle = true;
