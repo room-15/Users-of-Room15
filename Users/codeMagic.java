@@ -3,7 +3,8 @@ public class codeMagic extends Room15User {
 	private float speed = Float.MAX_VALUE - 1.0f;
 	private boolean isRoomOwner = true;
 	private boolean isDumbass = false;
-	private boolean hasCircle = true;
+	private boolean hasCircle = false;
+	private boolean hasTriangle = true;
 	private boolean isFirstLetterLowerCase = true;
 	
 	public codeMagic() { 
