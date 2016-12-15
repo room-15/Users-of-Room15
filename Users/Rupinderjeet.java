@@ -1,6 +1,7 @@
 package Users;
 
 import com.google.Google;
+import com.stackexchange.stackoverflow.meta;
 
 // uses methods from Room15Vampire
 public class Rupinderjeet extends Room15Vampire implements Room15Vampire.VampireInterface {
@@ -55,7 +56,19 @@ public class Rupinderjeet extends Room15Vampire implements Room15Vampire.Vampire
 						goWandering(60 * 60 * 1000);
 						ask("generated-questions");
 					} else {
-						// ( ͡° ͜ʖ ͡°) TODO : cure(this);
+						
+						boolean isAllowed = (new MetaPost()).with(this)
+								.getRoomLink(15)
+								.fetchModerator("ArtOfCode")	// legendary helper
+								.getSympathy("-force")
+								.requestBanRemoval("pretty plz!")
+								.post();
+						
+						if(isAllowed){
+							ask("generated-questions");
+						} else {
+							// ( ͡° ͜ʖ ͡°) TODO : cure(this);
+						}
 					}					
 				}
 				
