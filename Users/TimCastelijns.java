@@ -1,5 +1,8 @@
 public class TimCastelijns extends Room15User implements Promoter {
 
+    // http://chat.stackoverflow.com/transcript/message/35324997#35324997
+    public static final int MAX_THREADS = 10239;
+    
     private Realm realm;
     private List<Room15User> bestFriends;
 
