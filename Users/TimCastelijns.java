@@ -26,4 +26,13 @@ public class TimCastelijns extends Room15User implements Promoter {
     void promote() {
         System.out.println(String.format("Check out this library >>[Realm](%s)<< it's awesome!", realm.getWebsiteUrl()));
     }
+    
+    /**
+    * Checks if Tim is real(m)
+    *
+    * returns true it's really Tim, false otherwise.
+    **/
+    public boolean isTim() {
+        return isPromotingRealm();
+    }
 }
