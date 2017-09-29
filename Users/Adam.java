@@ -5,6 +5,7 @@ public class Adam extends Room15User {
 	private boolean isRoomOwner = true;
 	private boolean isDumbass = true;
 	private boolean hasCircle = true;
+	private boolean hasAbandonedUs = true;
 
 	// TODO Create method to find keystore.
 	private KeyStore ks;
