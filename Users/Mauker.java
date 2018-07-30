@@ -2,14 +2,14 @@ public class Mauker extends Room15User {
 
 	private boolean isRoomOwner = false;
 	private boolean hasCircle = true;
-	private boolean hasAndroidWear = true;
+	private boolean hasAndroidWear = false;
 	private boolean hasHat = true;
 	private ArrayList<Color> hatColors;
 
 	public Mauker() {
 		// TODO auto generated method stub
 		if (hasHat) {
-			hatColors = new ArrayList<Color>();
+			hatColors = new ArrayList<>();
 			hatColors.add(Color.BLACK);
 			hatColors.add(Color.WHITE);
 		}	
@@ -38,6 +38,10 @@ public class Mauker extends Room15User {
 			}
 		}
 		return null;
+	}
+	
+	public void plz() {
+		System.out.println(this.toString());
 	}
 
 	@Override
