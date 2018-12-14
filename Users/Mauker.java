@@ -4,6 +4,7 @@ public class Mauker extends Room15User {
 	private boolean hasCircle = true;
 	private boolean hasAndroidWear = false;
 	private boolean hasHat = true;
+	private boolean hasMSc = true;
 	private boolean hasPhD = false;
 	
 	private ArrayList<Color> hatColors;
@@ -31,6 +32,10 @@ public class Mauker extends Room15User {
 
 	public boolean hasHat() {
 		return hasHat;
+	}
+	
+	public boolean hasMSc() {
+		return hasMSc;
 	}
 	
 	public boolean hasPhD() {
