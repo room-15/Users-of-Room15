@@ -22,6 +22,9 @@ class Adam : Room15User {
 
 	// Add lovers in order from most to least.
 	val lovers: List<String> = listOf("Tristan", "Mauker")
+	
+	// Credits to Prince: https://twitter.com/maxcell/status/1075760351084449793
+	fun hasKeys() = 🤷
 
 	override fun clone() = codeMagic()
 }
