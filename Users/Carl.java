@@ -2,7 +2,7 @@
 public class Carl extends Room15User {
 
     private boolean isRoomOwner = true;
-    private boolean hasCircle = true;
+    private boolean hasCircle = false; //traitor
     private boolean isMerman = true;
 
     public Carl() {
