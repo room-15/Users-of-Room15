@@ -2,7 +2,7 @@ public class Mauker extends Room15User {
 
 	private boolean isRoomOwner = false;
 	private boolean hasCircle = true;
-	private boolean hasAndroidWear = false;
+	private boolean hasWearOS = true;
 	private boolean hasHat = true;
 	private boolean hasMSc = true;
 	private boolean hasPhD = false;
@@ -26,8 +26,8 @@ public class Mauker extends Room15User {
 		return isRoomOwner;
 	}
 
-	public boolean hasAndroidWear() {
-		return hasAndroidWear;
+	public boolean hasWearOS() {
+		return hasWearOS;
 	}
 
 	public boolean hasHat() {
