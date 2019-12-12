@@ -18,9 +18,7 @@ public class Asim extends Room15User {
 
 	@Override
 	public String toString() {
-		System.out.println("I am not a String");
-		throw new IllegalArgumentException();
-		return null;
+		return "I am not a String";
 	}
 	
 	@Override
