@@ -6,6 +6,7 @@ public class Mauker extends Room15User {
 	private boolean hasHat = true;
 	private boolean hasMSc = true;
 	private boolean hasPhD = false;
+	private int numOfDroppedPans = 1;
 	
 	private ArrayList<Color> hatColors;
 
