@@ -3,6 +3,7 @@ class Adam : Room15User {
 	private val ping = Float.MAX_VALUE // Expressed in MS
 	private val isDumbass = true
 	private val hasAbandonedUs = true
+	private val isEngaged = true
 	private val dadJokes: List<DadJoke>
 	private val tristanRandomLinksBuffer: List<String>
 
